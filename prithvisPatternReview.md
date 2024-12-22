@@ -37,7 +37,6 @@
   ```
   and **if dimension[0] is 1 or 2 it is still a star**i hope you understood
 
-- 
 
 ## Name issues
 - the name `validOddNumber()` is not good name, this function making any number
@@ -47,7 +46,6 @@ into odd right? name appropriatly
 right, this name is kinda confusing.
 
 - this function is not `getRow()` **Jayanth gave a name for this** remember find it
-
 ```js
   const getRow = function (char) {
     return function (times) {
