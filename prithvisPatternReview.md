@@ -71,6 +71,8 @@ stars, and spaces i think it will much helpfull
   };
 ```
 
+- you have learned destructuring right use it somewhere
+
 ## Bad practice
 - this code i am not even saying what is the problem
 ```js
