@@ -59,3 +59,33 @@ right, this name is kinda confusing.
 ## My observations
 - you have this function so called `getRow()`, can't make a function to repeat
 stars, and spaces i think it will much helpfull
+
+- and you don't need these functios, you have alternative way to do this
+```js
+  const min = function (num1, num2) {
+    return num1 < num2;
+  };
+
+  const max = function (num1, num2) {
+    return num1 > num2;
+  };
+```
+
+## Bad practice
+- this code i am not even saying what is the problem
+```js
+function range(from, to, increment) {
+  if (increment === 0) {
+    return [];
+  }
+
+  const arr = [];
+  const condition = from > to ? max : min;
+
+  for (from; condition(from, to); from += increment) {
+    arr.push(from);
+  }
+
+  return arr;
+}
+```
